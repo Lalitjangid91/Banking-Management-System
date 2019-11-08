@@ -114,14 +114,7 @@ class Banking:
             file1.close()
             file2.close()
         os.remove('Record.bin')
-        os.rename('Temp.bin','Record.bin')
-        
-        
-
-        
-        
-        
-        
+        os.rename('Temp.bin','Record.bin')       
 
 while True:
     n=int(input('''Enter Your Choice:\n1.Create\n2.Display all Account
